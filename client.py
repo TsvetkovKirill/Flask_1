@@ -1,8 +1,8 @@
 import requests
 
 response = requests.post("http://127.0.0.1:5000/advertisements",
-                        json={'title': 'Moped', 'description': 'Moped ne moy! Ya prosto razmestil obiavy',
-                              'owner': 'aleh924'},
+                        json={'title': 'Moped', 'description': 'Random notice',
+                              'owner': 'kirill'},
                         )
 
 print(response.status_code)
